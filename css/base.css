@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.cur{
+
+	color: red;
+
+}
+
+.cur:hover{
+
+	color: pink;
+
+}
+
+a:hover{
+
+	color: blue;
+}
+

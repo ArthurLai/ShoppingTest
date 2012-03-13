@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<cars>
+<car>
+ <color>blue</color>
+ <price>100</price>
+</car>
+<car>
+ <color>red</color>
+ <price>300</price>
+</car> 
+</cars>

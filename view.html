@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="BIG5" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=BIG5" />
+<title>Insert title here</title>
+
+
+<script type="text/javascript" src="http://news.iphone4.tw/js/base.js"></script>
+
+ 
+ <!-- 
+<script type="text/javascript">
+function get_data(id, source)
+{
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp = new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	} 
+		
+	xmlhttp.onreadystatechange = function()
+	{
+		//document.write("hi");
+		if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+		{
+			document.getElementById(id).innerHTML = xmlhttp.responseText;					
+		}
+	};	
+			
+	xmlhttp.open("GET", source, true);
+	xmlhttp.send();	
+};
+</script>
+ -->
+
+
+</head>
+
+
+<!-- 
+<script type="text/javascript">alert('hi')</script>
+
+<script type="text/javascript">get_data('newspostcontent', 'proxy.php?zone=iPhone');</script>
+	<div id="newspostcontent"></div>
+ -->
+<body>	
+	
+	<form action="upload_file.php" method="post" enctype="multipart/form-data">
+		<table>
+			<tr><td>
+				 		<input type="checkbox" name="special[]" id="checkbox" value="0" />                     
+                      	<span class="join-ps">大特價商品（價差20%以上）</span><br/>
+                      <input type="checkbox" name="special[]" id="checkbox2" value="1" />
+						<span class="join-ps">特殊且限量的商品</span><br/>
+                      <input type="checkbox" name="special[]" id="checkbox3" value="2" />
+						<span class="join-ps">高價精緻的商品</span><br/>
+                      <input type="checkbox" name="special[]" id="checkbox4" value="3" />
+						<span class="join-ps">別人有，我也要有的產品</span><br/>
+                      <input type="checkbox" name="special[]" id="checkbox5" value="4" />
+						<span class="join-ps">現在最嗆最夯的產品</span><br/>
+                      <input type="checkbox" name="special[]" id="checkbox6" value="5" />
+						<span class="join-ps">越貴越好的產品</span>
+			</td></tr>
+			<tr>				
+				<td> <input type="submit" value="upload" /></td>
+			</tr>
+		</table>
+	</form>
+	
+</body>
+</html>
